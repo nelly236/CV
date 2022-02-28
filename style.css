@@ -59,14 +59,14 @@ h1{
 #name-3{
     padding: 10px;
     color: white;
-  }
-  #name-3:hover::before{
+}
+#name-3:hover::before{
     left: 0;
-  }
-  #name-3::before{
+}
+#name-3::before{
     left: 0;
-  }
-  #name-3-span-1{
+}
+#name-3-span-1{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -76,8 +76,8 @@ h1{
     transform-origin: 0 0;
     transform: scaleY(0);
     transition: transform 1s;
-  }
-  #name-3-span-2{
+}
+#name-3-span-2{
     position: absolute;
     right: 0;
     top: 0;
@@ -87,8 +87,8 @@ h1{
     transform-origin: 100% 100%;
     transform: scaleY(0);
     transition: transform 1s;
-  }
-  #name-3::after {
+}
+#name-3::after {
     content: "";
     position: absolute;
     background: #03008F;
@@ -99,16 +99,30 @@ h1{
     transform-origin: 0% 100%;
     transform: scaleX(0);
     transition: transform 1s;
-  }
-  #name-3:hover::after {
+}
+#name-3:hover::after {
     transform-origin: 100% 0;
     transform: scaleX(1);
-  }
-  #name-3:hover #name-3-span-1{
+}
+#name-3:hover #name-3-span-1{
     transform-origin: 0 100%;
     transform: scaleY(1);
-  }
-  #name-3:hover #name-3-span-2{
+}
+#name-3:hover #name-3-span-2{
     transform-origin: 100% 0;
     transform: scaleY(1);
-  }
+}
+
+.navbar-brand:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+
+/*-------- MAIN -----------------*/
+
+.présentation{
+    text-align: center;
+
+}
