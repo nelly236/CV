@@ -86,3 +86,99 @@ h1{
 
 }
 
+/*-------- MAIN -----------------*/
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-avatar{
+    border-radius: 40%;
+}
+.me{
+    text-align: center;
+}
+.text-me, .myButton{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+/*--- Bouton CV ---*/
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fb7bff;
+	background:linear-gradient(to bottom, #f83bff 5%, #BC02C4 100%);
+	background-color:#f83bff;
+	border-radius:6px;
+	border:1px solid #cd02d4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:30px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #a302a8;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #BC02C4 5%, #f83bff);
+	background-color:#BC02C4;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*---------- section ------------*/
+.section-title {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.outer-container-2 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    padding: 80px 0px 60px 0px;
+}
+
+section.grey {
+    background-color: #EBEBEB;
+}
+
+/*-------------- Compétences -----------------*/
+
+.outer-container{
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    height: 80%;
+}
+.outer-container-1{
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    height: 80%;
+}
+/*-- colorbar --*/
+.bg-html{
+    background-color: #E44D26;
+}
+.bg-css{
+    background-color: #379AD6;
+}
+.bg-js{
+    background-color: #F7DF1E;
+}
+.bg-bootstrap{
+    background-color: #5B4083;
+}
+.bg-gimp{
+    background-color: #4B4537;
+}
+.bg-windows{
+    background-color: #0177DB;
+}
