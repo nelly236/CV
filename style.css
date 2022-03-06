@@ -194,3 +194,66 @@ section.grey {
     box-shadow: 10px 10px 5px #aaaaaa;
 }
 /*----------------- end portfolio -----------------------------------*/
+
+/* CONTACT */
+
+.contact-subtitle, .qualif {
+    text-align: center;
+    margin: 10px 0px 70px;
+    line-height: 50px;
+}
+
+.space-between{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-box {
+    width: 24%;
+    text-align: center;
+    padding: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.contact-box .text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFE5F3;
+    color: #9B59B6;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0EFF9;
+    color: #e20b0b;
+}
+
+.meet {
+    background-color: #DFF7E9;
+    color: #2ECC71;
+    line-height: 25px;
+}
+.meet p {
+    color: #707070;
+    padding-top: 20px;
+    line-height: 23px;
+}
+.reseau {
+    background-color: #E0EFF9;
+    color: #3498DB;
+}
+
+/*------------ end contact -------------------------*/
