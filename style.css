@@ -257,3 +257,15 @@ section.grey {
 }
 
 /*------------ end contact -------------------------*/
+
+/*---------------- FOOTER --------------------*/
+
+footer {
+    background-color: #292929;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 25px;
+    line-height: 20px;
+}
+/*----------------- end footer ----------------------------*/
