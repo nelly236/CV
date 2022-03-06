@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <header>  
+    <header id="ancre-top">  
             <div class="col-12 col-md-6 en-tête">
                 <h1>Nelly DIMOFSKI</h1>
                 <h2>Stagiaire Pré-Qual Développeuse web et mobile</h2>
@@ -110,9 +110,9 @@
 
         <!----------------- start timeline parcours ----------------------------------->
         <section id="ancre-experience">
-            <div class="outer-container-2">
+            <!--<div class="outer-container-2">-->
                 <h2 class="section-title">Parcours</h2>
-                <div id="timeline">
+                <!--<div id="timeline">-->
 
 
         <!--------- INTERETS --------------------->
@@ -124,13 +124,13 @@
 
         <!----------------- start portfolio ----------------------------------->
         <section id="ancre-projets">
-            <div class="outer-container-2">
+            <div class="row outer-container-2">
                 <h2 class="section-title">Portfolio</h2>
-                <div class="portfolio">
-                    <div class="card-folio" style="width: 50%">
+                <div class="col-12 col-md-3 portfolio">
+                    <div class="card-folio">
                         <img src="./images/site vitrine.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h5 class="card-title">Site Vitrine</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                         <ul class="list-group list-group-flush">
@@ -142,10 +142,62 @@
                           <a href="#" class="card-link">Card link</a>
                           <a href="#" class="card-link">Another link</a>
                         </div>
-                      </div>
-
+                    </div>
                 </div>
-        
+                <div class=" col-12 col-md-3 portfolio">
+                    <div class="card-folio">
+                        <img src="./images/jeu trouver les différences.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Trouver les différences</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">An item</li>
+                          <li class="list-group-item">A second item</li>
+                          <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 portfolio">
+                    <div class="card-folio">
+                        <img src="./images/jeu trouve le nombre.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Trouve le nombre</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">An item</li>
+                          <li class="list-group-item">A second item</li>
+                          <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 portfolio">
+                    <div class="card-folio">
+                        <img src="./images/jeu fusée.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Déplacer un objet</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">An item</li>
+                          <li class="list-group-item">A second item</li>
+                          <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!----------------- end portfolio ----------------------------------->
@@ -175,7 +227,7 @@
                     </div> 
                     <div class="col-12 col-md-3 contact-box reseau">
                         <a href="http://www.linkedin.com/in/nelly-dimofski" target="_blank">
-                            <img src="./images/logo linkedin.png" alt="logo linkedin">
+                            <img src="./images/logo linkedin.png" alt="logo linkedin" class="img-linkedin">
                         </a>
                         <div class="text">Suivez-moi</div>
                     </div>                   
@@ -188,9 +240,17 @@
         <footer>
             Nelly DIMOFSKI © 2022<br />
             Tous droits réservés
+            
+            <!------------- flèche haut de page --------->
+            <div id="scroll-to-top">
+                <button type="button" class="btn btn-white" data-bs-toggle="tooltip" data-bs-html="true" title="Retour en haut">
+                    <a href="#ancre-top">
+                        <img src="./images/icône haut-de-page.png" target="_blank" alt="Retour en haut de la page">
+                    </a>
+                </button>
+            </div>
         </footer>
-    </main>
-    
+    </main>   
 </body>
 <script src="./app.js" type="text/javascript"></script>
 </html>

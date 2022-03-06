@@ -226,19 +226,13 @@ section.grey {
 }
 
 .phone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #EFE5F3;
     color: #9B59B6;
 }
 
 .email {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #E0EFF9;
-    color: #e20b0b;
+    background-color: #e6e6e6;
+    color: #707070;
 }
 
 .meet {
@@ -251,9 +245,12 @@ section.grey {
     padding-top: 20px;
     line-height: 23px;
 }
-.reseau {
-    background-color: #E0EFF9;
+.reseau{
     color: #3498DB;
+}
+.img-linkedin:hover{
+    transition: 0.6s;
+    box-shadow: 0 5px 25px 0;
 }
 
 /*------------ end contact -------------------------*/
@@ -268,4 +265,24 @@ footer {
     padding: 25px;
     line-height: 20px;
 }
+
+/* curseur haut de page */
+
+#scroll-to-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 90px;
+    right: 30px;
+    opacity: 1;
+}
+
+.btn:hover{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 35px 0;
+    opacity: 0;
+}
+
+
 /*----------------- end footer ----------------------------*/
